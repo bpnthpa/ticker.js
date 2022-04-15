@@ -11,7 +11,7 @@ Methods beside all EventEmitter() methods:
 
 ## Node
 ```javascript
-import * as ticker from "./ticker.js"
+import * as ticker from "./ticker.js" // or "./ticker" if using with typescript
 
 ticker.start();
 ticker.on("tick",(elapsedSeconds) => { //do something } );
